@@ -1,15 +1,22 @@
 # fb-page-chat-download
 Python script to download message history from a Facebook page you manage to a CSV file. It uses the latest Graph API version available at the time of writing which is v2.6. I hacked this together in a few hours, contributions are always appreciated.
 
-How to use:
+## How to use:
+
+### Facebook Page Access Token
  * Go to https://developers.facebook.com/tools/explorer and click 'Get User Access Token'
  * Make sure to check 'manage_pages' and 'read_page_mailboxes'
  * Switch to a page that you want to scrape
  * Get the page_id and the access token to pass as parameters to this script
 
-This token will expire in an hour, alternatively you can create or use your app and grant the app those same permitions.
+This token will expire in an hour, alternatively you can create or use your app and grant the app those same permissions.
 
-Dependencies: A python 3 env
+### Facebook Page ID
+You may get your Facebook Page ID here 
+https://commentpicker.com/find-facebook-id.php
+
+
+### Dependencies: A python 3 env
 ```
 pip install unidecode
 pip install requests

@@ -1,0 +1,9 @@
+python fb-page-chat-download/run.py <PAGE_ID> <OUTPUT_FILE> <ACCESS_TOKEN>
+
+Get Facebook Page ID 
+https://commentpicker.com/find-facebook-id.php
+Dima Facebook Page ID: 117899359596059 
+
+FB Access Token: EAAELlZARxUvQBAJyOZBN0Jal0FuiaYDs8wt5VUZCLg4Haf0Qm8QrF008Ox2ro8m3wt1mSHxlg2WyYh03zlKnhwdl2t5wWt0RE7bUkBFPhvAysKLP9ZAELgXCq1j4JhT8w0aHXZBOFNzSjsUgcWrZBtUiVdjb9KAd4ghTu8oFzpJZApfnjbxlXURvyWhR2pAvqZBft7OHHx5EoqBolJYEar3H
+
+python run.py 117899359596059 

@@ -65,7 +65,7 @@ class FBScraper:
 
     def get_messages(self, t):
         extra_params = (('&since=' + str(self.since)) if self.since else '') + (('&until=' + str(self.until)) if self.until else '')
-        url = self.build_url('{}/messages?fields=from,created_time,message,shares,attachments&limit=400' + extra_params, t['id'])
+        url = self.build_url('{}/messages?fields=from,created_time,message,shares,attachments' + extra_params, t['id'])
         thread = self.scrape_thread(url, [])
         if thread:
             print(

@@ -27,5 +27,9 @@ Then run it using:
 ```
 python fb-page-chat-download/run.py <PAGE_ID> <OUTPUT_FILE> <ACCESS_TOKEN>
 ```
-    
+
+```
+run.py [-h] [--folder [folder]] [--since [since_epoch]] [--until [until_epoch]]
+```
+
 Optional parameters to filter by time are added. Currently by default the last 500 conversations threads are scraped entirely.

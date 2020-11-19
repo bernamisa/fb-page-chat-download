@@ -7,8 +7,22 @@ FB Page Creation Date: September 16, 2019
 
 FB Access Token: EAAELlZARxUvQBAJyOZBN0Jal0FuiaYDs8wt5VUZCLg4Haf0Qm8QrF008Ox2ro8m3wt1mSHxlg2WyYh03zlKnhwdl2t5wWt0RE7bUkBFPhvAysKLP9ZAELgXCq1j4JhT8w0aHXZBOFNzSjsUgcWrZBtUiVdjb9KAd4ghTu8oFzpJZApfnjbxlXURvyWhR2pAvqZBft7OHHx5EoqBolJYEar3H
 
+Epoch Time Converter
+https://www.epochconverter.com/
+
+run.py [-h] [--folder [folder]] [--since [since_epoch]] [--until [until_epoch]]
+
+September 19, 2019
+since_epoch: 1568937599
+
+November 18, 2020
+until_epoch: 1605743999
+
 YYYY MM DD
 DD MM YYYY
+
 python run.py <PAGE_ID> <OUTPUT_FILE> <ACCESS_TOKEN> <SINCE> <UNTIL>
 
-python run.py 117899359596059 EAAELlZARxUvQBAJyOZBN0Jal0FuiaYDs8wt5VUZCLg4Haf0Qm8QrF008Ox2ro8m3wt1mSHxlg2WyYh03zlKnhwdl2t5wWt0RE7bUkBFPhvAysKLP9ZAELgXCq1j4JhT8w0aHXZBOFNzSjsUgcWrZBtUiVdjb9KAd4ghTu8oFzpJZApfnjbxlXURvyWhR2pAvqZBft7OHHx5EoqBolJYEar3H  09162019
+python run.py 117899359596059 msgs.csv EAAELlZARxUvQBAJyOZBN0Jal0FuiaYDs8wt5VUZCLg4Haf0Qm8QrF008Ox2ro8m3wt1mSHxlg2WyYh03zlKnhwdl2t5wWt0RE7bUkBFPhvAysKLP9ZAELgXCq1j4JhT8w0aHXZBOFNzSjsUgcWrZBtUiVdjb9KAd4ghTu8oFzpJZApfnjbxlXURvyWhR2pAvqZBft7OHHx5EoqBolJYEar3H  09162019
+
+python run.py 117899359596059 msgs_epoch_args.csv EAAELlZARxUvQBAJyOZBN0Jal0FuiaYDs8wt5VUZCLg4Haf0Qm8QrF008Ox2ro8m3wt1mSHxlg2WyYh03zlKnhwdl2t5wWt0RE7bUkBFPhvAysKLP9ZAELgXCq1j4JhT8w0aHXZBOFNzSjsUgcWrZBtUiVdjb9KAd4ghTu8oFzpJZApfnjbxlXURvyWhR2pAvqZBft7OHHx5EoqBolJYEar3H  --since 1568937599 --until 1605743999
